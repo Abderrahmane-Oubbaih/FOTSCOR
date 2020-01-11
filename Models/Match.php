@@ -1,8 +1,8 @@
 <?php
 
 
-require_once("../Services/DbConnexion.php");
-require_once("../Services/ApiDeserialisation.php");
+require_once("Services/DbConnexion.php");
+require_once("Services/ApiDeserialisation.php");
 
 
 class Match
@@ -154,5 +154,5 @@ class Match
    }
 }
    
-   Match::getMatchs("2020-01-10");
+
 ?>
