@@ -14,6 +14,7 @@
             text-decoration: none;
         }
     </style>
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
 </head>
 <body>
    <?php
@@ -37,11 +38,14 @@
         <li><a href=""><?php echo date("M d",$d3); ?></a></li>
         <li><a href=""><?php echo date("M d",$d2); ?></a></li>
         <li><a href=""><?php echo date("M d",$d1); ?></a></li>
-        <li><a href=""><input type="date"></a></li>
+        <li><a href=""><input type="date" id="test"></a></li>
         
         </ul>
     </div>
     <?php echo $content ?>
     <h1 style="background-color:#a39393">footer</h1>
+    <br> <p>test</p>
 </body>
+
+
 </html>
